@@ -30,7 +30,6 @@ class App extends Component {
       <div className="App">
 
         <h1>Followers </h1>
-        <h2>Con backend</h2>
         <div>{this.state.followers.map(
           (f) => {
             return (<div>{f.follower.screen_name}</div>);
